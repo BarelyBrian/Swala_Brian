@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paragraph1 {
+    background-color: cadetblue;
+    color: blue;
+    height: 100px;
+}
+#paragraph2{
+    background-color: darkblue;
+    color: brown;
+}
+#paragraph3{
+    background-color: chartreuse ;
+    color: crimson ;
+    height: auto;
+}
+.paragraph4{
+    background-color: coral;
+}
+#div1{
+    background-color: burlywood;
+}
+#div2{
+    background-color: violet;
+}

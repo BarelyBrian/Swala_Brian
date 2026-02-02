@@ -1,0 +1,36 @@
+img{
+    width: 400px;
+    height: 400px;
+    margin-left: 300px;
+    margin-bottom: -510px;
+}
+#Blacktop{
+    background-color: black;
+    color: black;
+    width: 1000px;
+    height: 200px;
+}
+.WhiteLine{
+    background-color: white;
+    color: white ;
+    width: 1000px;
+    height: 15px;
+}
+#RedMiddle{
+    background-color: red;
+    color: red;
+    width: 1000px;
+    height: 200px;
+}
+.WhiteLine{
+    background-color: white;
+    color: white ;
+    width: 1000px;
+    height: 15px;
+}
+#GreenBottom{
+    background-color: green;
+    color: green;
+    width: 1000px;
+    height: 200px;
+}

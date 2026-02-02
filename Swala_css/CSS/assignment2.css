@@ -1,0 +1,23 @@
+body{
+    background-color: peachpuff;
+}
+h1{
+    border: solid white;    
+    text-align: center;
+    word-spacing: 25px;
+    letter-spacing: 30px;
+}
+p{
+    text-align: center;
+}
+a{
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    width: auto;
+    padding: 15px;
+}
+a:hover{
+    background-color: gray;
+}

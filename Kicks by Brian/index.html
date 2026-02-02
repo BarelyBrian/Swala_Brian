@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kicks by Brian</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+<style>
+        img:hover{
+            transform: scale(1.2);
+            transition: 0.8s;
+        }
+    </style>
+<body>
+
+    <!-- Navbar -->
+    <section>
+        <div class="container-fluid">
+            <!-- section 1 -->
+            <!-- nav bar is one big section -->
+            <!-- nav-tag puts all the content of the nav bar -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark m-25">
+                <a href="index.html" class="navbar-brand"><img src="images/air max.jpg" alt="" height="25px"
+                        width="30px"> <b>KICKS by BRIAN</b></a>
+                <!-- navbar-toggler removes the visible toggler icon-->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- below is the div that carries all the navbar links -->
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-link active"><img src="images/Home.png" alt="" width="17px" height="17px"> Home</a>
+                        <a href="sneakers.html" class="nav-link">Sneakers</a>
+                        <a href="casual.html" class="nav-link">Casual</a>
+                    </div>
+    </section>
+            <!-- section 2 -->
+        <!-- We're going to create a carousel -->
+        <section class="row">
+            <div class="col-md-12">
+                <!-- major div with carousel images -->
+                <div class="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                    <!-- wrapper starts here -->
+                    <div class="carousel-inner">
+                        <!-- Put each image in its own div -->
+                        <div class="carousel-item active">
+                            <img src="images/air force 1 hightop.jpg" alt="" class="d-block" height="750px" width="1000px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/air max.jpg" alt="" class="d-block" height="750px" width="1000px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Air presto.jpg" alt="" class="d-block" height="750px" width="1000px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/adidas samba.jpg" alt="" class="d-block" height="750px" width="1000px">
+                        </div>
+
+                    </div>
+                    <!-- wrapper ends here -->
+                    <!-- controller starts here -->
+                    <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon btn btn-secondary"></span>
+                    </a>
+                    <!-- second controller -->
+                    <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon btn btn-secondary"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- end of section -->
+                 <section class="row text-center bg-secondary">
+            <h2 style="text-decoration: underline;" class=" text-start">Featured Sneakers</h2>
+            <div class="col-md-4">
+                <h5><em>Nike Air Jordan 1 Hightop</em></h5>
+                <img src="images/air force 1 hightop.jpg" alt="" width="300px" height="300px">
+                <p>The final boss of the AirForce lineup, bringing hightop functionality and lowcut iconicness to a beautiful blend.</p>
+                <b class="text-info">Ksh 12,300 </b><br>
+                <span class="badge bg-dark">20% off</span>
+            </div>
+
+            <div class="col-md-4">
+                <h5><em>Nike Air Max</em></h5>
+                <img src="images/air max.jpg" alt="" width="300px" height="300px"> 
+                <p>A unique colourway that sets out with one goal which is to make a statement. And says it perfectly.</p>
+                <b class="text-info">Ksh 5,400 </b><br>
+                <span class="badge bg-dark">10% off</span>
+            </div>
+
+            <div class="col-md-4">
+                <h5><em>Nike Air Presto</em></h5>
+                <img src="images/Air presto.jpg" alt="" width="300px" height="300px">
+                <p>Known as the most comfortable shoe ever designed by Nike, this shoe has an aura like none other.</p>
+                <b class="text-info">Ksh 5300 </b><br>
+                <span class="badge bg-dark">30% off</span>
+            </div>
+        </section>
+        <br><br>
+        <hr>
+        <section class="row text-center">
+            <h2 style="text-decoration: underline;" class="text-start"><em>Nike</em></h2>
+            <div class="col-md-3">
+                <h5><em>Nike Air Jordan 1</em></h5>
+                <img src="images/jordan1.jpg" alt="" width="250px" height="200px">
+                <p>Yellow on Red colourway, epic comfort to much the iconic design.</p>
+                <b class="text-info">Ksh 12,000</b><br>
+                <span class="badge bg-dark">10% off</span>
+            </div>
+
+            <div class="col-md-3">
+                <h5><em>Nike Air Jordan 4</em></h5>
+                <img src="images/jordan4.jpg" alt="" width="250px" height="200px">
+                <p>Unmistakeable presence to match your equally unmistakeable style.</p>
+                <b class="text-info">Ksh 9,000</b><br>
+                <span class="badge bg-dark">15% off</span>
+            </div>
+
+            <div class="col-md-3">
+                <h5><em>Nike Air Dunk</em></h5>
+                <img src="images/nike air dunk.jpg" alt="" width="250px" height="200px">
+                <p>Designed for basketball, built for comfort. A combo you can never go wrong with.</p>
+                <b class="text-info">Kshs 5,000</b><br>
+                <span class="badge bg-dark">20% off</span>
+            </div>
+
+            <div class="col-md-3">
+                <h5><em>Nike Air SB</em></h5>
+                <img src="images/nike sb.jpg" alt="" width="250px" height="200px">
+                <p>For those who find thrill in skateboarding, this one was made with you in mind.</p>
+                <b class="text-info">Ksh 6,500</b><br>
+                <span class="badge bg-dark">5% off</span>
+            </div>
+        </section>
+        <br>
+        <hr>
+         <section class="row text-center">
+            <h2 style="text-decoration: underline;" class="text-start"><em>Puma</em></h2>
+            <div class="col-md-3">
+                <h5><em>Puma Suede Xl</em></h5>
+                <img src="images/Puma Suede Xl.jpeg" alt="" width="250px" height="200px">
+                <p>White on black colourway, epic comfort to much the iconic design.</p>
+                <b class="text-info">Ksh 12,000</b><br>
+                <span class="badge bg-dark">10% off</span>
+            </div>
+
+            <div class="col-md-3">
+                <h5><em>Puma Speedcat</em></h5>
+                <img src="images/puma speedcat.jpeg" alt="" width="250px" height="200px">
+                <p>Unmistakeable presence to match your equally unmistakeable style.</p>
+                <b class="text-info">Ksh 9,000</b><br>
+                <span class="badge bg-dark">15% off</span>
+            </div>
+
+            <div class="col-md-3">
+                <h5><em>Puma Cali</em></h5>
+                <img src="images/Puma Cali.jpeg" alt="" width="250px" height="200px">
+                <p>Designed for style, built for comfort. A combo you can never go wrong with.</p>
+                <b class="text-info">Kshs 5,000</b><br>
+                <span class="badge bg-dark">20% off</span>
+            </div>
+
+            <div class="col-md-3">
+                <h5><em>Puma Carina</em></h5>
+                <img src="images/Puma Carina.jpeg" alt="" width="250px" height="200px">
+                <p>For those who find thrill in fashion, this one was made with you in mind.</p>
+                <b class="text-info">Ksh 6,500</b><br>
+                <span class="badge bg-dark">5% off</span>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <section class="text-center">
+    <h1 class="text-start" style="text-decoration: underline;"><span class="bg-secondary"><em>Adidas</em></span></h1>
+   <section class="row bg-secondary">
+    <div class="col-md-3">
+        <div class="card shadow">
+            <div class="card-header">
+                <h3>Adidas Superstar</h3>
+            </div>
+            <div class="card-body">
+                <img src="images/Adidas Originals Superstar.jpeg" alt="" class="d-block w-100">
+                <p>Green on white colourway, epic comfort to much the iconic design.</p>
+            </div>
+            <div>
+                <b class="text-info">Ksh 12,000</b><br>
+                <span class="badge bg-dark">10% off</span>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-3">
+        <div class="card shadow">
+            <div class="card-header">
+                <h3>Adidas Yeezy Boost</h3>
+            </div>
+            <div class="card-body">
+                <img src="images/Adidas Yeezy2.jpeg" alt="" class="d-block w-100">
+                <p>Green on white colourway, epic comfort to much the iconic design.</p>
+            </div>
+            <div>
+                <b class="text-info">Ksh 12,000</b><br>
+                <span class="badge bg-secondary">10% off</span>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-3">
+        <div class="card shadow">
+            <div class="card-header">
+                <h3>Adidas Sabalo</h3>
+            </div>
+            <div class="card-body">
+                <img src="images/Adidas Sabalo.jpeg" alt="" class="d-block w-100" height="">
+                <p>Green on white colourway, epic comfort to much the iconic design.</p>
+            </div>
+            <div>
+                <b class="text-info">Ksh 12,000</b><br>
+                <span class="badge bg-secondary">10% off</span>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-3">
+        <div class="card shadow">
+            <div class="card-header">
+                <h3>Adidas Samba</h3>
+            </div>
+            <div class="card-body">
+                <img src="images/adidas samba2.jpeg" alt="" class="d-block w-100">
+                <p>Green on white colourway, epic comfort to much the iconic design.</p>
+            </div>
+            <div>
+                <b class="text-info">Ksh 12,000</b><br>
+                <span class="badge bg-dark">10% off</span>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<hr>
+
+    <!-- section 7 -->
+    <section class="row bg-info p-1">
+        <div class="col-md-4 text-dark">
+            <h4 class="text-center">About Us</h4>
+            <p>We hope to offer you with an unrivaled sneaker experience that'll be memorable. From your picking to fitting to finally paying, we hope to leave you satisfied.</p>
+            <p>Founded by a sneakerhead, you can trust that our products will be of the highest quality around.</p>
+        </div>
+        <div class="col-md-4 text-light">
+            <h4 class="text-center">Contact Us</h4>
+            <form action="">
+                <input type="email" placeholder="Enter your email" class="form-control"><br>
+                <textarea name="" id="" placeholder="Leave a comment" cols="30" rows="5"
+                    class="form-control"></textarea><br>
+                <input type="button" value="Send Message" class="btn btn-outline-danger">
+            </form>
+        </div>
+        <div class="col-md-4 text-dark">
+            <h4 class="text-light text-center">Stay connected</h4>
+            <a href="https://www.instagram.com"><img src="images/in.png" alt="" class="p-3"></a>
+            <a href="https://www.x.com"><img src="images/x.png" alt="" class="p-3"></a>
+            <a href="https://www.facebook.com"><img src="images/fb.png" alt="" class="p-3"></a><br>
+            <p>Have questions or need assistance? Visit us in store, give us a call, or send a message anytime. Connect with us on X, Instagram, and Facebook for updates, offers, and customer support.</p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <h5 class="text-center bg-dark text-light p-2">Developed by Brian &copy; 2026. All rights reserved.</h5>
+    </footer>
+
+</body>
+
+</html>
